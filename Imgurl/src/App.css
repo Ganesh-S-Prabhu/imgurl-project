@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+#search_box{
+  width: 850px;
+  
+  margin:50px auto ;
+  margin-bottom: 0px;
+}
+#search{
+  
+  border-radius: 40px;
+  width:450px;
+  font-size: 20px;
+  padding: 15px 20px;
+  
+}
+input:focus{
+  box-shadow: 0 0 5px orange;
+  border: 1px solid orange;
+}
+.display{
+  /* border: 1px solid red; */
+  width: 80%;
+  margin: auto;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3,400px);
+  gap: 20px;
+}
+.display>div{
+  height: 250px;
+
+  border: 1px solid green;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+#submit{
+  width: 200px;
+  padding: 10px;
+  font-size: 25px;
+  margin-left: 20px;
+  background-color: #04AA6D;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+button{
+  width: 200px;
+  padding: 10px;
+  font-size: 25px;
+  margin-left: 50px;
+  background-color: #04AA6D;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+}
+.container{
+ margin: auto;
+  width:400px;
+  font-size: 20px;
+ padding-left: 10px;
+ padding-top: 20px;
+  border: 1px solid red;
+  overflow: scroll;
+  height: 300px;
+  padding-right: 15px;
+}
+#contain-div{
+ 
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+#contain-img{
+  width: 30%;
+  /* border: 1px solid green; */
+}
+#contain-div>p{
+  width: 65%;
+  font-size: 15px;
+  margin-left: 10px;
+  /* border: 1px solid blue; */
+  padding-top: 5px;
+  text-align: left;
+}
